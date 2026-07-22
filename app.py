@@ -5,7 +5,7 @@ import shap
 
 
 st.set_page_config(
-    page_title="ValuaHome | AI Property Estimator",
+    page_title="House Price Predictor",
     page_icon="🏠",
     layout="wide"
 )
@@ -122,8 +122,8 @@ except Exception as e:
 
 with st.sidebar:
     st.image("https://img.icons8.com/isometric/100/home.png", width=70)
-    st.title("ValuaHome Engine")
-    st.caption("v2.4 • XGBoost Regressor")
+    st.title("🤖 AI Prediction Engine")
+    st.caption("Powered by AI • XGBoost Regressor")
     
     st.divider()
     
@@ -150,7 +150,7 @@ with st.sidebar:
         st.session_state["ext_qual"] = "Excellent"
 
 
-st.markdown('<div class="hero-title">🏠 Residential Valuation Studio</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-title">🏡 House Price Predictor</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-subtitle">Fill in the property metrics below to calculate instant market value estimates.</div>', unsafe_allow_html=True)
 
 
@@ -297,3 +297,21 @@ if predict_btn:
                 )
             }
         )
+st.markdown("---")
+
+st.markdown(
+    """
+<div style="text-align:center; color:#E5E7EB;; padding:20px;">
+
+<h4>👨‍💻 Developer</h4>
+
+<h4 style="margin-bottom:8px;">Nithish Kumar Chirukuripati</h4><br><br>
+
+🔗 <a href="https://github.com/nithishkumarchirukuripati21-ops" target="_blank">GitHub</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+💼 <a href="https://www.linkedin.com/in/nithish-kumar-chirukuripati-1a0358338/" target="_blank">LinkedIn</a>
+
+</div>
+""",
+    unsafe_allow_html=True
+)
