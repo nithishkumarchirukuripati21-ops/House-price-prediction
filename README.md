@@ -10,11 +10,13 @@ An end-to-end machine learning app that predicts house sale prices from property
 
 **Input form — property dimensions & layout**
 
-![Input form](assets/screenshot-input-form.png)
+![Input form](<img width="626" height="731" alt="image" src="https://github.com/user-attachments/assets/8b47df2e-7ad7-4980-9cca-6d0176966351" />
+)
 
 **Prediction result with SHAP feature breakdown**
 
-![Prediction results](assets/screenshot-results.png)
+![Prediction results](<img width="626" height="731" alt="image" src="https://github.com/user-attachments/assets/9a8bdbdb-87b5-4059-aeb2-9b5d151f2045" />
+)
 
 ---
 
