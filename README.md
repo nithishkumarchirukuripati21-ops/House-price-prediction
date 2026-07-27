@@ -8,15 +8,25 @@ An end-to-end machine learning app that predicts house sale prices from property
 
 ## 📸 Screenshots
 
-**Input form — property dimensions & layout**
+## 📸 Application Preview
 
-<img width="1910" height="932" alt="image" src="https://github.com/user-attachments/assets/04e777de-340a-4b14-9302-d312a8cbba0a" />
+### 🏠 Input Form
 
+Configure the property details, including dimensions, quality, garage, basement, neighborhood, and utilities before generating a prediction.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/04e777de-340a-4b14-9302-d312a8cbba0a" alt="House Price Prediction Input Form" width="900">
+</p>
 
-**Prediction result with SHAP feature breakdown**
+---
 
-<img width="1917" height="936" alt="image" src="https://github.com/user-attachments/assets/c204cf69-d4c4-46f5-b0fa-b082f3fbe059" />
+### 📈 Prediction Result & SHAP Explainability
+
+View the estimated house price, price per square foot, and an explainable AI (SHAP) breakdown showing how each feature influenced the prediction.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c204cf69-d4c4-46f5-b0fa-b082f3fbe059" alt="House Price Prediction Result with SHAP" width="900">
+</p>
 
 
 
