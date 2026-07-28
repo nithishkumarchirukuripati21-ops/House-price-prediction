@@ -6,8 +6,6 @@ An end-to-end machine learning app that predicts house sale prices from property
 
 ---
 
-## 📸 Screenshots
-
 ## 📸 Application Preview
 
 ### 🏠 Input Form
